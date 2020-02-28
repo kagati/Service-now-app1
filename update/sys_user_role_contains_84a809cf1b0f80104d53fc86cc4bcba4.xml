@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_452894_pac_cust.Pac Task Assinged User Role" name="x_452894_pac_cust.Pac Task Assinged User Role">cb2859f61bcf40104d53fc86cc4bcb66</contains>
+        <role display_value="x_452894_pac_cust.pac_task_user" name="x_452894_pac_cust.pac_task_user">0264160b1bf200104d53fc86cc4bcb6d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-23 03:05:54</sys_created_on>
+        <sys_id>84a809cf1b0f80104d53fc86cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust.Pac Task Assinged User Role.x_452894_pac_cust.pac_task_user</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_user_role_contains_84a809cf1b0f80104d53fc86cc4bcba4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-23 03:05:54</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pac_Task2" max_length="40" name="x_452894_pac_cust_pac_task2" type="collection">
+        <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Task Name" max_length="40" name="task_name" type="string"/>
+        <element label="Visit Info" max_length="32" name="visit_info" reference="x_452894_pac_cust_cust_task_2" type="reference"/>
+        <index name="index">
+            <element name="visit_info"/>
+        </index>
+    </element>
+</database>

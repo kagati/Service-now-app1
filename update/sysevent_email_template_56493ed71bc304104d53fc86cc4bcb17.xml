@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_452894_pac_cust_pac_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><span style="background-color: #ffffff; color: #993366;">Work Comments: ${work_comments}</span></p>
+<p><span style="color: #0000ff;">Please see the below info about this task:</span></p>
+<p><span style="color: #0000ff;">Customer Name: ${customer_name}</span></p>
+<p><span style="color: #0000ff;">Number of visitors: ${number_of_visitors}</span></p>
+<p><span style="color: #0000ff;">Visiting Date: ${visiting_date}</span></p>
+<p><span style="color: #0000ff;">Purpose of Vistit: ${purpose_of_visti}</span><br /><br /><span style="color: #0000ff;">Pac Location: ${pac_location}</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Pac Task Created Template</name>
+        <sms_alternate/>
+        <subject>A new Task Assignement</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 06:02:54</sys_created_on>
+        <sys_id>56493ed71bc304104d53fc86cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pac Task Created Template</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sysevent_email_template_56493ed71bc304104d53fc86cc4bcb17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 06:02:54</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

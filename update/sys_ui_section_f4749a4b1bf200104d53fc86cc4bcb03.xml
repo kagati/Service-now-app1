@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f4749a4b1bf200104d53fc86cc4bcb03" sys_domain="global" table="x_452894_pac_cust_pac_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>fdd93a3b1b0384104d53fc86cc4bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>79d93a3b1b0384104d53fc86cc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_visitors</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>fdd93a3b1b0384104d53fc86cc4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pac_location</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>75d93a3b1b0384104d53fc86cc4bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>f9d93a3b1b0384104d53fc86cc4bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visit_info</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>71d93a3b1b0384104d53fc86cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>f5d93a3b1b0384104d53fc86cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_visti</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>7dd93a3b1b0384104d53fc86cc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visiting_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>f1d93a3b1b0384104d53fc86cc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>79d93a3b1b0384104d53fc86cc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>fdd93a3b1b0384104d53fc86cc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>75d93a3b1b0384104d53fc86cc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>f9d93a3b1b0384104d53fc86cc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_descirption</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>71d93a3b1b0384104d53fc86cc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_comments</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-25 19:15:59</sys_created_on>
+            <sys_id>f5d93a3b1b0384104d53fc86cc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_pac_task" sys_domain="global" view="Default view">f4749a4b1bf200104d53fc86cc4bcb03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-25 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_452894_pac_cust_pac_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-10 22:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4749a4b1bf200104d53fc86cc4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_452894_pac_cust_pac_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_ui_section_f4749a4b1bf200104d53fc86cc4bcb03</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-10 22:21:29</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

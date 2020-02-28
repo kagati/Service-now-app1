@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_452894_pac_cust_pac_task</description>
+        <name>x_452894_pac_cust_pac_task.customer_name</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 06:43:15</sys_created_on>
+        <sys_id>6f8d8c3f1b8744104d53fc86cc4bcb77</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task.customer_name</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_security_acl_6f8d8c3f1b8744104d53fc86cc4bcb77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 06:44:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>612675abdbcc40d42f68c597059619c7</instance_id>
+        <instance_name>dev94017</instance_name>
+        <name>sys_security_acl_6f8d8c3f1b8744104d53fc86cc4bcb77</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Default access control on x_452894_pac_cust_pac_task&lt;/description&gt;&lt;name&gt;x_452894_pac_cust_pac_task.customer_name&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = true;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-25 06:43:15&lt;/sys_created_on&gt;&lt;sys_id&gt;6f8d8c3f1b8744104d53fc86cc4bcb77&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_452894_pac_cust_pac_task.customer_name&lt;/sys_name&gt;&lt;sys_package display_value="Pac Cust Help" source="x_452894_pac_cust"&gt;05b152871bf200104d53fc86cc4bcbce&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pac Cust Help"&gt;05b152871bf200104d53fc86cc4bcbce&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_6f8d8c3f1b8744104d53fc86cc4bcb77&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-25 06:44:14&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1484134759</payload_hash>
+        <record_name>x_452894_pac_cust_pac_task.customer_name</record_name>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 06:44:14</sys_created_on>
+        <sys_id>02cd807f1b8744104d53fc86cc4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1707b16c4bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 06:44:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8acd807f1e8744108ac4b079bae53be8</update_guid>
+        <update_guid_history>8acd807f1e8744108ac4b079bae53be8:-1484134759,a38d8c3fc38744103fa9cb438a4b0e7a:274626267</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 07:08:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4cc72ae042994360ada64474d228c400</sys_id>
+        <sys_metadata>6f8d8c3f1b8744104d53fc86cc4bcb77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task.customer_name</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent display_value="Customer Name">f7c49a8b1bf200104d53fc86cc4bcbd4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6f8d8c3f1b8744104d53fc86cc4bcb77</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6f8d8c3f1b8744104d53fc86cc4bcb77">02cd807f1b8744104d53fc86cc4bcbe9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 07:08:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

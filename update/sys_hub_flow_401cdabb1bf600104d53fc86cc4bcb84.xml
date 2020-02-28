@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow creates a customer task when a perticular purpose of visit is selected.</description>
+        <internal_name>create_cust_task__flow</internal_name>
+        <label_cache>[{"name":"Created_1.current.visiting_date","label":"Trigger➛Pac_Customer _Vist Record➛Visiting Date","reference":"","reference_display":"Visiting Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"visiting_date"},{"name":"Updated_1.current.first_name","label":"Trigger➛Pac_Customer _Vist Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"first_name"},{"name":"9ae26757-e56d-4938-936e-96e54cbc33ae.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"9ae26757-e56d-4938-936e-96e54cbc33ae.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"Updated_1.table_name","label":"Trigger➛Pac_Customer _Vist Table","reference":"x_452894_pac_cust_cust_task_2","reference_display":"Pac_Customer _Vist","type":"table_name","base_type":"table_name"},{"name":"d61e2bd6-9336-46d6-bea5-a0cb39513ece.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d61e2bd6-9336-46d6-bea5-a0cb39513ece.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"Created_1.current.first_name","label":"Trigger➛Pac_Customer _Vist Record➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"first_name"},{"name":"Created_1.current.number_of_visitors","label":"Trigger➛Pac_Customer _Vist Record➛Number of Visitors","reference":"","reference_display":"Number of Visitors","type":"integer","base_type":"integer","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"number_of_visitors"},{"name":"Created_1.current.customer_name","label":"Trigger➛Pac_Customer _Vist Record➛Customer Name","reference":"","reference_display":"Customer Name","type":"string","base_type":"string","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"customer_name"},{"name":"Created_1.current.purpose_of_the_vist","label":"Trigger➛Pac_Customer _Vist Record➛Purpose of the Visit","reference":"","reference_display":"Purpose of the Visit","type":"choice","base_type":"choice","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"purpose_of_the_vist"},{"name":"Created_1.current.building","label":"Trigger➛Pac_Customer _Vist Record➛Building","reference":"","reference_display":"Building","type":"choice","base_type":"choice","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"building"},{"name":"Created_1.current.location","label":"Trigger➛Pac_Customer _Vist Record➛Location","reference":"","reference_display":"Location","type":"choice","base_type":"choice","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"location"},{"name":"Created_1.current","label":"Trigger➛Pac_Customer _Vist Record","reference":"x_452894_pac_cust_cust_task_2","reference_display":"Pac_Customer _Vist","type":"reference","base_type":"reference"},{"name":"Created_1.current.visit_created_by","label":"Trigger➛Pac_Customer _Vist Record➛Visit Created By","reference":"","reference_display":"Visit Created By","type":"string","base_type":"string","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"visit_created_by"},{"name":"Created_1.current.visit_creator","label":"Trigger➛Pac_Customer _Vist Record➛visit creator","reference":"","reference_display":"visit creator","type":"string","base_type":"string","parent_table_name":"x_452894_pac_cust_cust_task_2","column_name":"visit_creator"}]</label_cache>
+        <latest_snapshot>082296531b4304104d53fc86cc4bcbae</latest_snapshot>
+        <master_snapshot>b50ddefb1bf600104d53fc86cc4bcbc3</master_snapshot>
+        <name>Create_Cust_Task _Flow</name>
+        <outputs/>
+        <remote_trigger_id>3bce20041b0300104d53fc86cc4bcb74</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:50:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>401cdabb1bf600104d53fc86cc4bcb84</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>Create_Cust_Task _Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_hub_flow_401cdabb1bf600104d53fc86cc4bcb84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=401cdabb1bf600104d53fc86cc4bcb84"/>
+    <sys_variable_value action="delete_multiple" query="document_key=401cdabb1bf600104d53fc86cc4bcb84"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_452894_pac_cust_cust_task_2">purpose_of_the_vist=Training<item display_value="Training" endquery="false" field="purpose_of_the_vist" goto="false" newquery="false" operator="=" or="false" value="Training"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:31:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3bce20041b0300104d53fc86cc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:31:19</sys_updated_on>
+        <table>x_452894_pac_cust_cust_task_2</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT IN7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:10:10</sys_created_on>
+        <sys_id>7ca0aeff1bf600104d53fc86cc4bcb27</sys_id>
+        <sys_mod_count>140</sys_mod_count>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:05:30</sys_updated_on>
+        <ui_id>9ae26757-e56d-4938-936e-96e54cbc33ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ca0aeff1bf600104d53fc86cc4bcb27</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>a30226731b3a00104d53fc86cc4bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ca0aeff1bf600104d53fc86cc4bcb27</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>ef0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:32:52</sys_updated_on>
+        <value>x_452894_pac_cust_pac_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>7ca0aeff1bf600104d53fc86cc4bcb27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>6f0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>customer_name={{Created_1.current.customer_name}}^number_of_visitors={{Created_1.current.number_of_visitors}}^assigned_to={"display":"Jane Rick","value":"9c9324db1b4bc0104d53fc86cc4bcbcf"}^purpose_of_visti={{Created_1.current.purpose_of_the_vist}}^building={{Created_1.current.building}}^pac_location={{Created_1.current.location}}^visit_info={{Created_1.current}}^task_created_by={{Created_1.current.visit_created_by}}^task_owner_id={{Created_1.current.visit_creator}}^task_descirption=Please Set up the Training Room for 
+{{Created_1.current.number_of_visitors}}
+ Visitors for  the Customer  
+{{Created_1.current.customer_name}}
+
+
+^visiting_date={{Created_1.current.visiting_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>7ca0aeff1bf600104d53fc86cc4bcb27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>ab0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 07:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT INe17e68c01b0300104d53fc86cc4bcbd1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:29:48</sys_created_on>
+        <sys_id>e17e68c01b0300104d53fc86cc4bcbd1</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e17e68c01b0300104d53fc86cc4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e17e68c01b0300104d53fc86cc4bcbd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:29:48</sys_created_on>
+        <sys_id>217e68c01b0300104d53fc86cc4bcbd2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:31:14</sys_updated_on>
+        <value>purpose_of_the_vist=Training</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e17e68c01b0300104d53fc86cc4bcbd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:31:14</sys_created_on>
+        <sys_id>aaceecc01b0300104d53fc86cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:31:14</sys_updated_on>
+        <value>x_452894_pac_cust_cust_task_2</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT IN4c1c52fb1bf600104d53fc86cc4bcb5a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>401cdabb1bf600104d53fc86cc4bcb84</id>
+        <name>Create_Cust_Task _Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:50:11</sys_created_on>
+        <sys_id>4c1c52fb1bf600104d53fc86cc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:50:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT IN1c0d52fb1bf600104d53fc86cc4bcb79,280ddefb1bf600104d53fc86cc4bcb1a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</model>
+        <model_id>401cdabb1bf600104d53fc86cc4bcb84</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:18</sys_created_on>
+        <sys_id>1c0d52fb1bf600104d53fc86cc4bcb79</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</model>
+        <model_id>401cdabb1bf600104d53fc86cc4bcb84</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:18</sys_created_on>
+        <sys_id>280ddefb1bf600104d53fc86cc4bcb1a</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT IN7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:10:10</sys_created_on>
+        <sys_id>7ca0aeff1bf600104d53fc86cc4bcb27</sys_id>
+        <sys_mod_count>140</sys_mod_count>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:05:30</sys_updated_on>
+        <ui_id>9ae26757-e56d-4938-936e-96e54cbc33ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ca0aeff1bf600104d53fc86cc4bcb27</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>a30226731b3a00104d53fc86cc4bcb96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ca0aeff1bf600104d53fc86cc4bcb27</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>ef0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:32:52</sys_updated_on>
+        <value>x_452894_pac_cust_pac_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ca0aeff1bf600104d53fc86cc4bcb27"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>7ca0aeff1bf600104d53fc86cc4bcb27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>6f0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>customer_name={{Created_1.current.customer_name}}^number_of_visitors={{Created_1.current.number_of_visitors}}^assigned_to={"display":"Jane Rick","value":"9c9324db1b4bc0104d53fc86cc4bcbcf"}^purpose_of_visti={{Created_1.current.purpose_of_the_vist}}^building={{Created_1.current.building}}^pac_location={{Created_1.current.location}}^visit_info={{Created_1.current}}^task_created_by={{Created_1.current.visit_created_by}}^task_owner_id={{Created_1.current.visit_creator}}^task_descirption=Please Set up the Training Room for 
+{{Created_1.current.number_of_visitors}}
+ Visitors for  the Customer  
+{{Created_1.current.customer_name}}
+
+
+^visiting_date={{Created_1.current.visiting_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>7ca0aeff1bf600104d53fc86cc4bcb27</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:21</sys_created_on>
+        <sys_id>ab0226731b3a00104d53fc86cc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 07:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT IN600d52fb1bf600104d53fc86cc4bcb7f,a80ddefb1bf600104d53fc86cc4bcb1e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:18</sys_created_on>
+        <sys_id>600d52fb1bf600104d53fc86cc4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:18</sys_created_on>
+        <sys_id>a80ddefb1bf600104d53fc86cc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_401cdabb1bf600104d53fc86cc4bcb84_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=401cdabb1bf600104d53fc86cc4bcb84^sys_idNOT INfd0ddefb1bf600104d53fc86cc4bcbfc"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"fd0ddefb1bf600104d53fc86cc4bcbfc","name":"plan"}}</plan>
+        <plan_id>401cdabb1bf600104d53fc86cc4bcb84</plan_id>
+        <snapshot>082296531b4304104d53fc86cc4bcbae</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd0ddefb1bf600104d53fc86cc4bcbfc</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <trigger display_value="">3bce20041b0300104d53fc86cc4bcb74</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow creates a customer task when a perticular purpose of visit is selected.</description>
+        <internal_name>create_cust_task__flow</internal_name>
+        <label_cache>[{"name":"d61e2bd6-9336-46d6-bea5-a0cb39513ece.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d61e2bd6-9336-46d6-bea5-a0cb39513ece.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Create_Cust_Task _Flow</name>
+        <outputs/>
+        <parent_flow display_value="Create_Cust_Task _Flow">401cdabb1bf600104d53fc86cc4bcb84</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b50ddefb1bf600104d53fc86cc4bcbc3</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b50ddefb1bf600104d53fc86cc4bcbc3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b50ddefb1bf600104d53fc86cc4bcbc3"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT IN4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">b50ddefb1bf600104d53fc86cc4bcbc3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:10:11</sys_created_on>
+        <sys_id>4da0aeff1bf600104d53fc86cc4bcb6c</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <ui_id>9ae26757-e56d-4938-936e-96e54cbc33ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4da0aeff1bf600104d53fc86cc4bcb6c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>2b0226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:24:05</sys_updated_on>
+        <value/>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4da0aeff1bf600104d53fc86cc4bcb6c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>670226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:32:58</sys_updated_on>
+        <value>x_452894_pac_cust_pac_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>4da0aeff1bf600104d53fc86cc4bcb6c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>e30226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>customer_name={{Created_1.current.customer_name}}^number_of_visitors={{Created_1.current.number_of_visitors}}^assigned_to={"display":"Jane Rick","value":"9c9324db1b4bc0104d53fc86cc4bcbcf"}^purpose_of_visti={{Created_1.current.purpose_of_the_vist}}^building={{Created_1.current.building}}^pac_location={{Created_1.current.location}}^visit_info={{Created_1.current}}^task_created_by={{Created_1.current.visit_created_by}}^task_owner_id={{Created_1.current.visit_creator}}^task_descirption=Please Set up the Training Room for 
+{{Created_1.current.number_of_visitors}}
+ Visitors for  the Customer  
+{{Created_1.current.customer_name}}
+
+
+^visiting_date={{Created_1.current.visiting_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>4da0aeff1bf600104d53fc86cc4bcb6c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>230226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 07:16:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT IN790ddefb1bf600104d53fc86cc4bcbf0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">b50ddefb1bf600104d53fc86cc4bcbc3</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>790ddefb1bf600104d53fc86cc4bcbf0</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:15</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=790ddefb1bf600104d53fc86cc4bcbf0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>790ddefb1bf600104d53fc86cc4bcbf0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:31:19</sys_created_on>
+        <sys_id>2fce20041b0300104d53fc86cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:31:19</sys_updated_on>
+        <value>purpose_of_the_vist=Training</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>790ddefb1bf600104d53fc86cc4bcbf0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>710ddefb1bf600104d53fc86cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+        <value>x_452894_pac_cust_cust_task_2</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>790ddefb1bf600104d53fc86cc4bcbf0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>bd0ddefb1bf600104d53fc86cc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+        <value>purpose_of_the_vist=Training</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>790ddefb1bf600104d53fc86cc4bcbf0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 17:31:19</sys_created_on>
+        <sys_id>efce20041b0300104d53fc86cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:31:19</sys_updated_on>
+        <value>x_452894_pac_cust_cust_task_2</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>790ddefb1bf600104d53fc86cc4bcbf0</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>f90ddefb1bf600104d53fc86cc4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT INf50ddefb1bf600104d53fc86cc4bcbc4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b50ddefb1bf600104d53fc86cc4bcbc3</id>
+        <name>Create_Cust_Task _Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>f50ddefb1bf600104d53fc86cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT IN390ddefb1bf600104d53fc86cc4bcbc5,f10ddefb1bf600104d53fc86cc4bcbd7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create_Cust_Task _Flow">b50ddefb1bf600104d53fc86cc4bcbc3</model>
+        <model_id>b50ddefb1bf600104d53fc86cc4bcbc3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>390ddefb1bf600104d53fc86cc4bcbc5</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create_Cust_Task _Flow">b50ddefb1bf600104d53fc86cc4bcbc3</model>
+        <model_id>b50ddefb1bf600104d53fc86cc4bcbc3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>f10ddefb1bf600104d53fc86cc4bcbd7</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT IN4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create_Cust_Task _Flow">b50ddefb1bf600104d53fc86cc4bcbc3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:10:11</sys_created_on>
+        <sys_id>4da0aeff1bf600104d53fc86cc4bcb6c</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <ui_id>9ae26757-e56d-4938-936e-96e54cbc33ae</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4da0aeff1bf600104d53fc86cc4bcb6c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>2b0226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:24:05</sys_updated_on>
+        <value/>
+        <variable display_value="">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4da0aeff1bf600104d53fc86cc4bcb6c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>670226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 17:32:58</sys_updated_on>
+        <value>x_452894_pac_cust_pac_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4da0aeff1bf600104d53fc86cc4bcb6c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>4da0aeff1bf600104d53fc86cc4bcb6c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>e30226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:04:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>customer_name={{Created_1.current.customer_name}}^number_of_visitors={{Created_1.current.number_of_visitors}}^assigned_to={"display":"Jane Rick","value":"9c9324db1b4bc0104d53fc86cc4bcbcf"}^purpose_of_visti={{Created_1.current.purpose_of_the_vist}}^building={{Created_1.current.building}}^pac_location={{Created_1.current.location}}^visit_info={{Created_1.current}}^task_created_by={{Created_1.current.visit_created_by}}^task_owner_id={{Created_1.current.visit_creator}}^task_descirption=Please Set up the Training Room for 
+{{Created_1.current.number_of_visitors}}
+ Visitors for  the Customer  
+{{Created_1.current.customer_name}}
+
+
+^visiting_date={{Created_1.current.visiting_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>4da0aeff1bf600104d53fc86cc4bcb6c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 07:16:22</sys_created_on>
+        <sys_id>230226731b3a00104d53fc86cc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 07:16:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3^sys_idNOT INb10ddefb1bf600104d53fc86cc4bcbca,bd0ddefb1bf600104d53fc86cc4bcbdb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>b10ddefb1bf600104d53fc86cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 06:54:24</sys_created_on>
+        <sys_id>bd0ddefb1bf600104d53fc86cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b50ddefb1bf600104d53fc86cc4bcbc3_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 06:54:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="purpose_of_visti" table="x_452894_pac_cust_pac_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purpose_of_visti</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting</label>
+            <language>en</language>
+            <name>x_452894_pac_cust_pac_task</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 01:08:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1adcd771bf200104d53fc86cc4bcbb0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 01:08:10</sys_updated_on>
+            <value>Meeting</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>purpose_of_visti</element>
+            <name>x_452894_pac_cust_pac_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 01:07:36</sys_created_on>
+            <sys_id>21ad09771bf200104d53fc86cc4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>purpose_of_visti</sys_name>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_choice_x_452894_pac_cust_pac_task_purpose_of_visti</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 01:07:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>612675abdbcc40d42f68c597059619c7</instance_id>
+        <instance_name>dev94017</instance_name>
+        <name>sys_choice_x_452894_pac_cust_pac_task_purpose_of_visti</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="purpose_of_visti" table="x_452894_pac_cust_pac_task" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>purpose_of_visti</element><hint/><inactive>false</inactive><label>Meeting</label><language>en</language><name>x_452894_pac_cust_pac_task</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-13 01:08:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f1adcd771bf200104d53fc86cc4bcbb0</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-13 01:08:10</sys_updated_on><value>Meeting</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>purpose_of_visti</element><name>x_452894_pac_cust_pac_task</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-13 01:07:36</sys_created_on><sys_id>21ad09771bf200104d53fc86cc4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>purpose_of_visti</sys_name><sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package><sys_policy/><sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope><sys_update_name>sys_choice_x_452894_pac_cust_pac_task_purpose_of_visti</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-13 01:07:36</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>502862389</payload_hash>
+        <record_name>Pac_Customer_Task.Purpose of Vistit</record_name>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 07:21:22</sys_created_on>
+        <sys_id>c956ae821bcb00104d53fc86cc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706178f88e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 07:21:22</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>4556ae8223cb00107be8379b80c8d1be</update_guid>
+        <update_guid_history>4556ae8223cb00107be8379b80c8d1be:502862389,4156ae824dcb0010ae943a251cd268bb:927170953,02dd4d77aff2001063494fe6e2a1dc69:-1201160175,bcdd4d774bf200106d920839cd0401ba:808589864,cecdcd77ecf2001083d5c14e102501b3:927170953,c9cd41b7aff20010a5566d752355ab36:1046089467,9badc1b7bff2001041d664eaf99c1f25:-1633463185,f1ad05b7b7f200104c5176077d57e87d:912843208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 07:21:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>21ad09771bf200104d53fc86cc4bcb0b</sys_id>
+        <sys_metadata>21ad09771bf200104d53fc86cc4bcb0b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>purpose_of_visti</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sys_choice_x_452894_pac_cust_pac_task_purpose_of_visti</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_452894_pac_cust_pac_task_purpose_of_visti">c956ae821bcb00104d53fc86cc4bcbbe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 07:21:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name_of_the_task" label="Name  of the Task" language="en" table="x_452894_pac_cust_pac_auto_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name_of_the_task</element>
+            <help/>
+            <hint/>
+            <label>Name  of the Task</label>
+            <language>en</language>
+            <name>x_452894_pac_cust_pac_auto_task</name>
+            <plural>Name  of the Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 07:01:43</sys_created_on>
+            <sys_id>85bede7f1bf600104d53fc86cc4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name  of the Task</sys_name>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_documentation_x_452894_pac_cust_pac_auto_task_name_of_the_task_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 07:01:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

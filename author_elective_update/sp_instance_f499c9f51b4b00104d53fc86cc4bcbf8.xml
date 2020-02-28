@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6858c9f51b4b00104d53fc86cc4bcb90</sp_column>
+        <sp_widget display_value="Pac_Visit_Widget">2c5809f51b4b00104d53fc86cc4bcb7e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:57:39</sys_created_on>
+        <sys_id>f499c9f51b4b00104d53fc86cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sp_instance_f499c9f51b4b00104d53fc86cc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:57:39</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f499c9f51b4b00104d53fc86cc4bcbf8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>612675abdbcc40d42f68c597059619c7</instance_id>
+        <instance_name>dev94017</instance_name>
+        <name>sp_instance_f499c9f51b4b00104d53fc86cc4bcbf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">6858c9f51b4b00104d53fc86cc4bcb90</sp_column><sp_widget display_value="Pac_Visit_Widget">2c5809f51b4b00104d53fc86cc4bcb7e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 05:57:39</sys_created_on><sys_id>f499c9f51b4b00104d53fc86cc4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package><sys_policy/><sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope><sys_update_name>sp_instance_f499c9f51b4b00104d53fc86cc4bcbf8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 05:57:39</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=f499c9f51b4b00104d53fc86cc4bcbf8"/></record_update>]]></payload>
+        <payload_hash>-1588864540</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:57:39</sys_created_on>
+        <sys_id>b499c9f51b4b00104d53fc86cc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705c05f6020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:57:39</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fc99c9f5e74b0010f1bea3d1979471f9</update_guid>
+        <update_guid_history>fc99c9f5e74b0010f1bea3d1979471f9:-1588864540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f9a9cd391b4b00104d53fc86cc4bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:57:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>5228d2b77aa449e7a3def14dfbbbe699</sys_id>
+        <sys_metadata>f499c9f51b4b00104d53fc86cc4bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sp_instance_f499c9f51b4b00104d53fc86cc4bcbf8</sys_update_name>
+        <sys_update_version display_value="sp_instance_f499c9f51b4b00104d53fc86cc4bcbf8">b499c9f51b4b00104d53fc86cc4bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:57:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

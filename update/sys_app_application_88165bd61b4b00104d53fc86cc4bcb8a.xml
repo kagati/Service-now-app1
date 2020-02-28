@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_452894_pac_cust.cust_task_2_user,x_452894_pac_cust.Pac Visit Requester Role,x_452894_pac_cust.Pac Concierge Role,x_452894_pac_cust.Pac Task Create Role</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 05:29:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88165bd61b4b00104d53fc86cc4bcb8a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Pac_Cust_Visit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_app_application_88165bd61b4b00104d53fc86cc4bcb8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-23 21:19:04</sys_updated_on>
+        <title>Pac_Cust_Visit</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-02-28 06:50:32">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-16 22:21:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>630e8dcd1b0700104d53fc86cc4bcb62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Pac_Cut_Visit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_portal_page_630e8dcd1b0700104d53fc86cc4bcb62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-16 22:25:55</sys_updated_on>
+        <title>PA Pac_Cut_Visit</title>
+        <user/>
+        <view>pa_new_tab_9</view>
+    </sys_portal_page>
+</record_update>

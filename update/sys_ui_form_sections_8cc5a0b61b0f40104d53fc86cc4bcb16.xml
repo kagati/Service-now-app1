@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8cc5a0b61b0f40104d53fc86cc4bcb16" sys_domain="global" table="x_452894_pac_cust_cust_task_2" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-22 05:55:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40c5a0b61b0f40104d53fc86cc4bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_452894_pac_cust_cust_task_2" name="x_452894_pac_cust_cust_task_2" sys_domain="global" view="Default view">8cc5a0b61b0f40104d53fc86cc4bcb16</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_452894_pac_cust_cust_task_2" sys_domain="global" view="Default view">f9bbdabb1bf600104d53fc86cc4bcb79</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-22 05:55:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_452894_pac_cust_cust_task_2</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-22 05:55:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cc5a0b61b0f40104d53fc86cc4bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_452894_pac_cust_cust_task_2</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8cc5a0b61b0f40104d53fc86cc4bcb16</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-22 05:55:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

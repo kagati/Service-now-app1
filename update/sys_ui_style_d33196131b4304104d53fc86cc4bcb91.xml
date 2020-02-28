@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>number_of_visitors</element>
+        <name>x_452894_pac_cust_pac_task</name>
+        <style>text-align:left</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 03:01:50</sys_created_on>
+        <sys_id>d33196131b4304104d53fc86cc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_ui_style_d33196131b4304104d53fc86cc4bcb91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 03:01:50</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=d33196131b4304104d53fc86cc4bcb91"/>
+</record_update>

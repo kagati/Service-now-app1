@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 19:37:09</sys_created_on>
+        <sys_id>be94f9eb1b4f04104d53fc86cc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task.x_452894_pac_cust.pac Cust TaskAssignee Role</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_security_acl display_value="x_452894_pac_cust_pac_task">7594f9eb1b4f04104d53fc86cc4bcbb8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_be94f9eb1b4f04104d53fc86cc4bcba9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 19:37:09</sys_updated_on>
+        <sys_user_role display_value="x_452894_pac_cust.pac Cust TaskAssignee Role" name="x_452894_pac_cust.pac Cust TaskAssignee Role">209af0531bcbc0104d53fc86cc4bcba6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>612675abdbcc40d42f68c597059619c7</instance_id>
+        <instance_name>dev94017</instance_name>
+        <name>sys_security_acl_role_be94f9eb1b4f04104d53fc86cc4bcba9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-24 19:37:09</sys_created_on><sys_id>be94f9eb1b4f04104d53fc86cc4bcba9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_452894_pac_cust_pac_task.x_452894_pac_cust.pac Cust TaskAssignee Role</sys_name><sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package><sys_policy/><sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope><sys_security_acl display_value="x_452894_pac_cust_pac_task">7594f9eb1b4f04104d53fc86cc4bcbb8</sys_security_acl><sys_update_name>sys_security_acl_role_be94f9eb1b4f04104d53fc86cc4bcba9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-24 19:37:09</sys_updated_on><sys_user_role display_value="x_452894_pac_cust.pac Cust TaskAssignee Role" name="x_452894_pac_cust.pac Cust TaskAssignee Role">209af0531bcbc0104d53fc86cc4bcba6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1022442849</payload_hash>
+        <record_name>x_452894_pac_cust_pac_task.x_452894_pac_cust.pac Cust TaskAssignee Role</record_name>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 19:37:09</sys_created_on>
+        <sys_id>de15716f1b4f04104d53fc86cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17078b408460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 19:37:09</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>1a15716ff34f0410cc1cceb9819d44ae</update_guid>
+        <update_guid_history>1a15716ff34f0410cc1cceb9819d44ae:-1022442849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_452894_pac_cust_pac_task.x_452894_pac_cust.pac Cust TaskAssignee Role">b9d0c0ff1b4744104d53fc86cc4bcb17</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 05:47:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>062998580df7436180409818a281a9b9</sys_id>
+        <sys_metadata>be94f9eb1b4f04104d53fc86cc4bcba9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task.x_452894_pac_cust.pac Cust TaskAssignee Role</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent display_value="">7594f9eb1b4f04104d53fc86cc4bcbb8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_be94f9eb1b4f04104d53fc86cc4bcba9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_be94f9eb1b4f04104d53fc86cc4bcba9">de15716f1b4f04104d53fc86cc4bcbae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-25 05:47:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

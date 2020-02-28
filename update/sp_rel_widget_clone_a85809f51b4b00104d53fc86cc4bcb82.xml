@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Pac_Visit_Widget">2c5809f51b4b00104d53fc86cc4bcb7e</child>
+        <cloned>2020-02-18 08:00:00</cloned>
+        <last_validated>2020-02-18 08:00:00</last_validated>
+        <parent display_value="Hello World 1">6f2cff80d721120023c84f80de61033c</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function() {	
+	var c = this;		
+  c.display = function() {		
+		c.data.message = (c.data.sometext) ? 'Hello ' + c.data.sometext + '!' : '';
+	}
+	
+	c.display();
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;h1 {
+color: #428bca;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{
+	"data": {
+		"sometext": "world"
+	}
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs display_value="Widgets"&gt;948bab53d721120023c84f80de61034e&lt;/docs&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;hello-world&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Hello World 1&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script/&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-02-08 21:36:22&lt;/sys_created_on&gt;&lt;sys_id&gt;6f2cff80d721120023c84f80de61033c&lt;/sys_id&gt;&lt;sys_mod_count&gt;181&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hello World 1&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;a37bd6051b3600104d53fc86cc4bcbb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_6f2cff80d721120023c84f80de61033c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-03-02 00:15:45&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+ Enter your name:
+ &lt;input type="text" ng-model="c.data.sometext" ng-change="c.display()"/&gt;
+ &lt;h1&gt;{{ c.data.message }}&lt;/h1&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 05:52:10</sys_created_on>
+        <sys_id>a85809f51b4b00104d53fc86cc4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2c5809f51b4b00104d53fc86cc4bcb7e</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_a85809f51b4b00104d53fc86cc4bcb82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 05:52:10</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

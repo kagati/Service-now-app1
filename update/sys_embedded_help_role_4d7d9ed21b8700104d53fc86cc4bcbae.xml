@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 01:21:04</sys_created_on>
+        <sys_id>4d7d9ed21b8700104d53fc86cc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1d4d56161b8700104d53fc86cc4bcb39</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4d7d9ed21b8700104d53fc86cc4bcbae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 01:21:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

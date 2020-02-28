@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="purpose_of_the_vist" table="x_452894_pac_cust_cust_task_2" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purpose_of_the_vist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting</label>
+            <language>en</language>
+            <name>x_452894_pac_cust_cust_task_2</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 06:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf6b1a7b1bf600104d53fc86cc4bcb79</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 06:47:46</sys_updated_on>
+            <value>Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purpose_of_the_vist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training</label>
+            <language>en</language>
+            <name>x_452894_pac_cust_cust_task_2</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 06:47:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef7b96bb1bf600104d53fc86cc4bcbf5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 06:59:21</sys_updated_on>
+            <value>Training</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>purpose_of_the_vist</element>
+            <name>x_452894_pac_cust_cust_task_2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-13 06:47:41</sys_created_on>
+            <sys_id>1f7bd6bb1bf600104d53fc86cc4bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>purpose_of_the_vist</sys_name>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_choice_x_452894_pac_cust_cust_task_2_purpose_of_the_vist</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-13 06:47:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

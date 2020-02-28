@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>It trigeers when someting changes onthe specified control. it throws message saying date has to be future and cannot select the week ends.</description>
+        <field>visiting_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Pac_Task OnChange Script</name>
+        <order/>
+        <script><![CDATA[/*function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}*/
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+    if (isLoading || newValue === '') {
+        return;
+    }
+     
+    //get the new and current date/time as an object
+    var dateObjectNow = new Date();
+    var dateObjectNew = new Date(newValue);
+    //get the dates in days - also use floor to convert valeus to integers
+    var dateNow = Math.floor(dateObjectNow.valueOf()/(1000*60*60*24));
+    var dateNew = Math.floor(dateObjectNew.valueOf()/(1000*60*60*24));
+    // Get day of week (Sunday = 0)
+    var dayOfWeek = dateObjectNew.getDay();
+ 
+    // Check Date if date is 2 or more days in the future and not on the weekend.
+    // dateNow is the Date/Time now, whereas dateNew is the date at midnight
+    // so dateNew currently equals dateNow -1.  So use 2 in the check below (not 2).
+    var msg;
+    if (dateNew >= (dateNow + 2) && dayOfWeek > 0 && dayOfWeek < 6) {
+        msg = 'Date is OK';
+        g_form.hideFieldMsg('visiting_date',true);
+        g_form.showFieldMsg('visiting_date',msg,'info',false);
+    }
+    else {
+        msg = 'ERROR: Date must be 2 or more days in the future and not on the weekend.';
+        g_form.hideFieldMsg('visiting_date',true);
+        g_form.showFieldMsg('visiting_date',msg,'error',false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-11 23:49:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>977fe7d31b3600104d53fc86cc4bcbcc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Pac_Task OnChange Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_script_client_977fe7d31b3600104d53fc86cc4bcbcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 04:47:38</sys_updated_on>
+        <table>x_452894_pac_cust_pac_task</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

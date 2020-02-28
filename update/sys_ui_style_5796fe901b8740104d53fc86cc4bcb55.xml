@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>due_date</element>
+        <name>x_452894_pac_cust_pac_task2</name>
+        <style>background-color:#1db1e2;&#13;
+font-size:20px;&#13;
+color:white;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-14 22:05:21</sys_created_on>
+        <sys_id>5796fe901b8740104d53fc86cc4bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task2</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_ui_style_5796fe901b8740104d53fc86cc4bcb55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 22:08:18</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=5796fe901b8740104d53fc86cc4bcb55"/>
+</record_update>

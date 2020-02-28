@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Pac_Customer_Task">4e64968b1bf200104d53fc86cc4bcb15</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Pac_Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_452894_pac_cust_pac_task</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_452894_pac_cust.pac_task_user,x_452894_pac_cust.Pac Task Assinged User Role,x_452894_pac_cust.Pac Visit Requester Role</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-10 22:21:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9264968b1bf200104d53fc86cc4bcb18</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Pac_Customer_Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_app_module_9264968b1bf200104d53fc86cc4bcb18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-23 03:54:29</sys_updated_on>
+        <timeline_page/>
+        <title>Pac_Customer_Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

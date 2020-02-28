@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 18:45:06</sys_created_on>
+        <sys_id>1129a5231b4f04104d53fc86cc4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust_pac_task.x_452894_pac_cust.Pac Task Manager Role</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_security_acl display_value="x_452894_pac_cust_pac_task">e97b025b1b0304104d53fc86cc4bcbff</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1129a5231b4f04104d53fc86cc4bcb30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 18:45:06</sys_updated_on>
+        <sys_user_role display_value="x_452894_pac_cust.Pac Task Manager Role" name="x_452894_pac_cust.Pac Task Manager Role">97e765ef1b0f04104d53fc86cc4bcbba</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

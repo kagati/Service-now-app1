@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="pac_location" table="x_452894_pac_cust_pac_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pac_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lake Forest</label>
+            <language>en</language>
+            <name>x_452894_pac_cust_pac_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-10 22:42:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c649d6cf1bf200104d53fc86cc4bcbc0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-10 23:43:42</sys_updated_on>
+            <value>Lake Forest</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>pac_location</element>
+            <name>x_452894_pac_cust_pac_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-10 22:42:36</sys_created_on>
+            <sys_id>0249d6cf1bf200104d53fc86cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pac_location</sys_name>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_choice_x_452894_pac_cust_pac_task_pac_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-10 22:42:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>612675abdbcc40d42f68c597059619c7</instance_id>
+        <instance_name>dev94017</instance_name>
+        <name>sys_choice_x_452894_pac_cust_pac_task_pac_location</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="pac_location" table="x_452894_pac_cust_pac_task" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>pac_location</element><hint/><inactive>false</inactive><label>Lake Forest</label><language>en</language><name>x_452894_pac_cust_pac_task</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-10 22:42:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c649d6cf1bf200104d53fc86cc4bcbc0</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-10 23:43:42</sys_updated_on><value>Lake Forest</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>pac_location</element><name>x_452894_pac_cust_pac_task</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-10 22:42:36</sys_created_on><sys_id>0249d6cf1bf200104d53fc86cc4bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pac_location</sys_name><sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package><sys_policy/><sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope><sys_update_name>sys_choice_x_452894_pac_cust_pac_task_pac_location</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-10 22:42:36</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1826431997</payload_hash>
+        <record_name>Pac_Customer_Task.Pac Location</record_name>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 07:17:41</sys_created_on>
+        <sys_id>3e756a421bcb00104d53fc86cc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170617596a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 07:17:41</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>b6756a4201cb0010d2a543e93642f972</update_guid>
+        <update_guid_history>b6756a4201cb0010d2a543e93642f972:-1826431997,76756242a7cb0010794841f6a90eb877:-2042490658,c947e2cb37360010b0124b4e103df45c:1982243085,028916cfd8f200105c2df775bac1793b:331603749,45891e8f5ff20010b87eb2a8b85ab89c:1668565195,33799acfc5f20010b61ef8f8b08e7307:-1150549901,b67916cfdef2001081da38d955d12b4a:112519256,b06912cfaaf200100eefceb040e5734e:-842297265,8e49d6cfcaf20010cc93d9f43e8287c2:-1865838449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 07:17:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>0249d6cf1bf200104d53fc86cc4bcbc1</sys_id>
+        <sys_metadata>0249d6cf1bf200104d53fc86cc4bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pac_location</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sys_choice_x_452894_pac_cust_pac_task_pac_location</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_452894_pac_cust_pac_task_pac_location">3e756a421bcb00104d53fc86cc4bcb72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 07:17:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

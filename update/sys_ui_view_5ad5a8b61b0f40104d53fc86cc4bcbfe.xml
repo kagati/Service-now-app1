@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>all_visit_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-22 05:55:28</sys_created_on>
+        <sys_id>5ad5a8b61b0f40104d53fc86cc4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Visit View</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_ui_view_5ad5a8b61b0f40104d53fc86cc4bcbfe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-22 05:55:28</sys_updated_on>
+        <title>All Visit View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" label="Pac_Customer _Vist" max_length="40" name="x_452894_pac_cust_cust_task_2" type="collection">
+        <element choice="3" default="None" dependent="location" dependent_on_field="location" label="Building" max_length="40" name="building" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 1" value="Building 1"/>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 2" value="Building 2"/>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 3" value="Building 3"/>
+                <element dependent_value="Bothel" inactive_on_update="false" label="Default Building" value="Default Building"/>
+                <element dependent_value="Osaka" inactive_on_update="false" label="Default Building" value="Default Building"/>
+            </choice>
+        </element>
+        <element display="true" label="Customer Name" max_length="100" name="customer_name" type="string"/>
+        <element choice="3" default="Bothel" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bothel" value="Bothel"/>
+                <element inactive_on_update="false" label="Lake Forest" value="Lake Forest"/>
+                <element inactive_on_update="false" label="Osaka" value="Osaka"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of Visitors" max_length="40" name="number_of_visitors" type="integer"/>
+        <element choice="1" label="Purpose of the Visit" max_length="40" name="purpose_of_the_vist" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Meeting" value="Meeting"/>
+                <element inactive_on_update="false" label="Training" value="Training"/>
+            </choice>
+        </element>
+        <element label="Visiting Date" max_length="40" name="visiting_date" type="glide_date_time"/>
+        <element label="Visit Created By" max_length="40" name="visit_created_by" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="visit creator" max_length="40" name="visit_creator" type="string" use_dynamic_default="true"/>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Pac_Customer_Task" max_length="40" name="x_452894_pac_cust_pac_task" sizeclass="1" type="collection">
+        <element label="Assignedd User" max_length="40" name="assignedd_user" type="string"/>
+        <element choice="3" default="Default Building " dependent="pac_location" dependent_on_field="pac_location" label="Building" max_length="40" name="building" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 1" value="Building 1"/>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 2" value="Building 2"/>
+                <element dependent_value="Lake Forest" inactive_on_update="false" label="Building 3" value="Building 3"/>
+                <element dependent_value="Bothel" inactive_on_update="false" label="Default Buidling" value="Default Building"/>
+                <element dependent_value="Osaka" inactive_on_update="false" label="Default Building" value="Default Building"/>
+            </choice>
+        </element>
+        <element label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal_list"/>
+        <element label="Number of visitors" max_length="40" name="number_of_visitors" type="integer"/>
+        <element choice="3" default="Bothel" label="Pac Location" max_length="40" name="pac_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bothel" value="Bothel"/>
+                <element inactive_on_update="false" label="Lake Forest" value="Lake Forest"/>
+                <element inactive_on_update="false" label="Osaka" value="Osaka"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Purpose of Vistit" max_length="40" name="purpose_of_visti" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Task Created By" max_length="40" name="task_created_by" type="string"/>
+        <element label="Task Descirption" max_length="250" name="task_descirption" type="string"/>
+        <element default="javascript:gs.getUserID()&#13;&#10;" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Task CreatedBy Id" max_length="40" name="task_owner_id" type="string" use_dynamic_default="true"/>
+        <element label="Visiting Date" max_length="40" name="visiting_date" type="glide_date_time"/>
+        <element label="Visit Info" max_length="32" name="visit_info" reference="x_452894_pac_cust_cust_task_2" type="reference"/>
+        <element label="Work Comments" max_length="250" name="work_comments" type="string"/>
+    </element>
+</database>

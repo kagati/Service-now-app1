@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Pac_Visit_icon">0966018a1b4700104d53fc86cc4bcb6f</child>
+        <cloned>2020-02-19 08:00:00</cloned>
+        <last_validated>2020-02-19 08:00:00</last_validated>
+        <parent display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, spAriaUtil) {
+	$scope.accessibilityModeEnabled = spAriaUtil.isAccessibilityEnabled();
+}]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.iconlink a label,h2 {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+/* TOP ICON ---------- */
+
+a.top_icon {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+a.top_icon .fa {
+  display: block;
+  text-align: center;
+}
+
+/* CIRCLE ICON ---------- */
+
+a.circle_icon {
+  display: block;
+  padding: 20px 0px 20px 70px;
+  position: relative;
+}
+
+a.circle_icon .fa {
+  position:absolute;
+  left: 0px;
+  top: 10px;
+}
+
+/* COLOR BOX ---------- */
+
+a.color_box {
+  display: block;
+  position: relative;
+  padding: 20px 20px 20px 82px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+a.color_box .fa {
+  position:absolute;
+  left: 20px;
+  top: 20px;
+  width:42px;
+  text-align: center;
+}
+
+.icon-link-background-primary {
+  background-color: $brand-primary;
+}
+
+.icon-link-background-info {
+  background-color: $brand-info;
+}
+
+.icon-link-background-success {
+  background-color: $brand-success;
+}
+
+.icon-link-background-warning {
+  background-color: $brand-warning;
+}
+
+.icon-link-background-danger {
+  background-color: $brand-danger;
+}
+
+.icon-link-background-default {
+  background-color: $brand-primary;
+}
+
+.text-primary {
+  color: $brand-primary;
+  
+  &amp;amp;:hover {
+    color: darken($brand-primary, 20%);
+  }
+}
+
+.text-info {
+  color: $brand-info;
+  
+  &amp;amp;:hover {
+    color: darken($brand-info, 20%);
+  }
+}
+
+.text-success {
+  color: $brand-success;
+  
+  &amp;amp;:hover {
+    color: darken($brand-success, 20%);
+  }
+}
+
+.text-warning {
+  color: $brand-warning;
+  
+  &amp;amp;:hover {
+    color: darken($brand-warning, 20%);
+  }
+}
+
+.text-danger {
+  color: $brand-danger;
+  
+  &amp;amp;:hover {
+    color: darken($brand-danger, 20%);
+  }
+}
+
+.text-default {
+  color: $brand-primary;
+  
+  &amp;amp;:hover {
+    color: darken($brand-primary, 20%);
+  }
+}
+
+.high-contrast {
+  .text-primary {
+    color: darken($brand-primary, 10%);
+  }
+
+  .text-info {
+    color: darken($brand-info, 10%);
+  }
+
+  .text-success {
+    color: darken($brand-success, 10%);
+  }
+
+  .text-warning {
+    color: darken($brand-warning, 10%);
+  }
+
+  .text-danger {
+    color: darken($brand-danger, 10%);
+  }
+
+  .text-default {
+    color: darken($brand-primary, 10%);
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance_link&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;type,url,sc_category,sc_cat_item,kb_topic,kb_article,kb_category,sp_page,title,short_description,color,class_name,glyph&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Icon Link&lt;/name&gt;&lt;option_schema&gt;[{"name":"link_template","section":"Presentation","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	var gr = $sp.getInstanceRecord();
+	data.href = $sp.getMenuHREF(gr);
+	data.target = options.target || "";
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-10-30 20:57:36&lt;/sys_created_on&gt;&lt;sys_id&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;148&lt;/sys_mod_count&gt;&lt;sys_name&gt;Icon Link&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;a37bd6051b3600104d53fc86cc4bcbb1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_3caa67afcb13020000f8d856634c9c2e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-08-15 15:25:09&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="iconlink" ng-class="{'high-contrast': accessibilityModeEnabled}"&gt;
+  &lt;!--// Top Icon --&gt;
+  &lt;a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}"&gt;
+    &lt;div class="m-b fa fa-{{::options.glyph}} fa-4x {{::options.class_name}} text-{{::options.color}}"&gt;&lt;/div&gt;
+    &lt;h2&gt;{{::options.title}}&lt;/h2&gt;
+    &lt;span class="text-muted"&gt;{{::options.short_description}}&lt;/span&gt;
+  &lt;/a&gt;
+
+  &lt;!--// Circle Icon --&gt;
+  &lt;a ng-if="::(options.link_template == 'Circle Icon')" ng-href="{{::data.href}}" class="circle_icon {{::options.class_name}} text-{{::options.color}}" target="{{::data.target}}"&gt;
+    &lt;span class="fa fa-stack fa-2x"&gt;
+      &lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt;
+      &lt;i class="fa fa-{{::options.glyph}} fa-stack-1x fa-inverse"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    &lt;h2&gt;{{::options.title}}&lt;/h2&gt;
+    &lt;span class="text-muted"&gt;{{::options.short_description}}&lt;/span&gt;
+  &lt;/a&gt;
+
+  &lt;!--// Color Box --&gt;
+  &lt;a ng-if="::(options.link_template == 'Color Box')" ng-href="{{::data.href}}" class="color_box {{::options.class_name}} icon-link-background-{{::options.color}} text-white" target="{{::data.target}}"&gt;
+    &lt;div class="fa fa-{{::options.glyph}} fa-3x {{::options.class_name}}"&gt;&lt;/div&gt;
+    &lt;h2&gt;{{::options.title}}&lt;/h2&gt;
+    &lt;span&gt;{{::options.short_description}}&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 00:22:13</sys_created_on>
+        <sys_id>1166018a1b4700104d53fc86cc4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0966018a1b4700104d53fc86cc4bcb6f</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_1166018a1b4700104d53fc86cc4bcb74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 00:22:13</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>
