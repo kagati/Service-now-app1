@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>It shows one of the filed to enter names.</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Test for click</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+     
+   
+   
+   //if(g_form.getValue('task_name') !='') 
+         //g_form.setDisplay('u_string_1', true);
+  //Add a UI macro to a non-reference field
+    //Set the name of the field in the 'field' variable
+    var field = 'task_name';
+    //Append the table name to get the field id
+   // field = g_form.x_452894_pac_cust_cust_task_2 + '.' + field;
+	field=  g_form.getTableName()+ '.' + field;
+
+    try{
+    //Create the image element and add to the dom
+		//alert(field);
+    $(field).insert({
+            after: '<a onclick="clickme()"  name="my_macro" id="my_macro"><img src="PlusIcon.png" alt="Show Macro" title="Show Macro" style="padding-right:4px">Add Customer</a>'
+        });
+    }
+    catch(e){
+    alert('Error' + e);
+    }
+	
+	//onclick event to fire when the image is clicked
+function clickme() {
+   alert('You clicked me!');
+    }
+
+
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 04:13:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d3ec3c11be700104d53fc86cc4bcb8a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test for click</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_script_client_5d3ec3c11be700104d53fc86cc4bcb8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 04:45:29</sys_updated_on>
+        <table>x_452894_pac_cust_pac_task2</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

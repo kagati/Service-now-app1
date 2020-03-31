@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Customer names" section_id="c1c315091b2300104d53fc86cc4bcbfc" sys_domain="global" table="x_452894_pac_cust_cust_task_2" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_names</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-13 02:23:21</sys_created_on>
+            <sys_id>02157e8d1b6700104d53fc86cc4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer names" display_value="Customer names" name="x_452894_pac_cust_cust_task_2" sys_domain="global" view="Default view">c1c315091b2300104d53fc86cc4bcbfc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-13 02:23:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-13 02:23:21</sys_created_on>
+            <sys_id>82157e8d1b6700104d53fc86cc4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer names" display_value="Customer names" name="x_452894_pac_cust_cust_task_2" sys_domain="global" view="Default view">c1c315091b2300104d53fc86cc4bcbfc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-13 02:23:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Customer names</caption>
+            <header>false</header>
+            <name>x_452894_pac_cust_cust_task_2</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-12 19:18:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1c315091b2300104d53fc86cc4bcbfc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Customer names</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_ui_section_c1c315091b2300104d53fc86cc4bcbfc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-12 23:35:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

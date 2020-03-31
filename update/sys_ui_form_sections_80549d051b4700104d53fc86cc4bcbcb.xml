@@ -17,16 +17,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:12:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1288f4c1b2300104d53fc86cc4bcb4c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_452894_pac_cust_pac_task2" name="x_452894_pac_cust_pac_task2" sys_domain="global" view="Default view">80549d051b4700104d53fc86cc4bcbcb</sys_ui_form>
+            <sys_ui_section caption="Customer name" display_value="Customer name" name="x_452894_pac_cust_pac_task2" sys_domain="global" view="Default view">a1288f4c1b2300104d53fc86cc4bcb48</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:12:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-02-16 22:49:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>005491c51b4700104d53fc86cc4bcbc2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_452894_pac_cust_pac_task2" name="x_452894_pac_cust_pac_task2" sys_domain="global" view="Default view">80549d051b4700104d53fc86cc4bcbcb</sys_ui_form>
             <sys_ui_section caption="Pac_task_View2" display_value="Pac_task_View2" name="x_452894_pac_cust_pac_task2" sys_domain="global" view="Default view">845491c51b4700104d53fc86cc4bcbc0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-16 22:49:06</sys_updated_on>
+            <sys_updated_on>2020-03-10 01:12:41</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_452894_pac_cust_pac_task2</name>

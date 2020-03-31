@@ -10,6 +10,7 @@
             </choice>
         </element>
         <element display="true" label="Customer Name" max_length="100" name="customer_name" type="string"/>
+        <element label="Customer names" max_length="4000" name="customer_names" type="simple_name_values"/>
         <element choice="3" default="Bothel" label="Location" max_length="40" name="location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bothel" value="Bothel"/>
@@ -25,6 +26,8 @@
                 <element inactive_on_update="false" label="Training" value="Training"/>
             </choice>
         </element>
+        <element label="testwatch" max_length="4000" name="testwatch" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="u_string_1" type="string"/>
         <element label="Visiting Date" max_length="40" name="visiting_date" type="glide_date_time"/>
         <element label="Visit Created By" max_length="40" name="visit_created_by" type="string"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="visit creator" max_length="40" name="visit_creator" type="string" use_dynamic_default="true"/>

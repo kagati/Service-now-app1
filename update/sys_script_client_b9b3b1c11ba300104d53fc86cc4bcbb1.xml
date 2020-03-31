@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This scipt is for on load to hide the name of the customer for  number of customer</description>
+        <field>building</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Pac visit onload for numofvistors</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+  // alert(g_user.getFullName());
+	//alert("curretn user name is : " + g_form.getUserDisplayName());
+	
+	//var numofvisitor = g_form.getControl("number_of_visitors");
+	
+	
+	
+	if(g_form.getValue('number_of_visitors') =='')
+	{
+      g_form.setDisplay('u_string_1', false);
+		g_form.setDisplay('customer_names', false);
+
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 21:37:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9b3b1c11ba300104d53fc86cc4bcbb1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Pac visit onload for numofvistors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_script_client_b9b3b1c11ba300104d53fc86cc4bcbb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-31 22:21:45</sys_updated_on>
+        <table>x_452894_pac_cust_cust_task_2</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

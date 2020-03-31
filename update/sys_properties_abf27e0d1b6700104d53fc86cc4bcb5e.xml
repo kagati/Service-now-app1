@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>to make the jquery run successfully</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_452894_pac_cust.glide.script.block.client.globals</name>
+        <read_roles/>
+        <suffix>glide.script.block.client.globals</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 02:17:07</sys_created_on>
+        <sys_id>abf27e0d1b6700104d53fc86cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_452894_pac_cust.glide.script.block.client.globals</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_properties_abf27e0d1b6700104d53fc86cc4bcb5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 02:17:07</sys_updated_on>
+        <type>string</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=abf27e0d1b6700104d53fc86cc4bcb5e"/>
+</record_update>

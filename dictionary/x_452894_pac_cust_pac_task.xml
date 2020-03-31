@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Pac_Customer_Task" max_length="40" name="x_452894_pac_cust_pac_task" sizeclass="1" type="collection">
+    <element extends="task" label="Pac_Customer_Task" max_length="40" name="x_452894_pac_cust_pac_task" sizeclass="6" type="collection">
         <element label="Assignedd User" max_length="40" name="assignedd_user" type="string"/>
         <element choice="3" default="Default Building " dependent="pac_location" dependent_on_field="pac_location" label="Building" max_length="40" name="building" type="choice" use_dependent_field="true">
             <choice>

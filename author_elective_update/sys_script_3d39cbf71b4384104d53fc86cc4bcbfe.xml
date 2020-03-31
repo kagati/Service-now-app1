@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_452894_pac_cust_pac_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_452894_pac_cust_pac_task">visiting_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^ORvisiting_date&lt;javascript:gs.beginningOfToday()^EQ<item endquery="false" field="visiting_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="false" field="visiting_date" goto="false" newquery="false" operator="&lt;" or="true" value="javascript:gs.beginningOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p><span style="color: #993366;"><strong>Oops</strong></span><strong><span style="color: #993366;"> ! Please select a future date for Visiting Date.</span></strong></p>]]></message>
+        <name>Validate Visiting Date Future</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-25 20:23:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d39cbf71b4384104d53fc86cc4bcbfe</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validate Visiting Date Future</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_update_name>sys_script_3d39cbf71b4384104d53fc86cc4bcbfe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-25 04:09:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=3d39cbf71b4384104d53fc86cc4bcbfe"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</application>
+        <file_path/>
+        <instance_id>a9d7011fdbf4ef004c1ff70fbf961928</instance_id>
+        <instance_name>dev71825</instance_name>
+        <name>sys_script_3d39cbf71b4384104d53fc86cc4bcbfe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;true&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_452894_pac_cust_pac_task&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_452894_pac_cust_pac_task"&gt;visiting_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^ORvisiting_date&amp;lt;javascript:gs.beginningOfToday()^EQ&lt;item endquery="false" field="visiting_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/&gt;&lt;item endquery="false" field="visiting_date" goto="false" newquery="false" operator="&amp;lt;" or="true" value="javascript:gs.beginningOfToday()"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #993366;"&gt;&lt;strong&gt;Oops&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="color: #993366;"&gt; ! Please select a future date for Visiting Date.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Validate Visiting Date Future&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-25 20:23:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3d39cbf71b4384104d53fc86cc4bcbfe&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Visiting Date Future&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pac Cust Help" source="x_452894_pac_cust"&gt;05b152871bf200104d53fc86cc4bcbce&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pac Cust Help"&gt;05b152871bf200104d53fc86cc4bcbce&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_3d39cbf71b4384104d53fc86cc4bcbfe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-25 04:09:30&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3d39cbf71b4384104d53fc86cc4bcbfe"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1089887356</payload_hash>
+        <record_name>Validate Visiting Date Future</record_name>
+        <reverted_from/>
+        <source>89b152871bf200104d53fc86cc4bcbd0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-25 04:09:30</sys_created_on>
+        <sys_id>0a7009c12f3b0010d1a756f62799b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1710fe1870d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-25 04:09:30</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>027009c16f3b0010f8f45e42ed018cc7</update_guid>
+        <update_guid_history>027009c16f3b0010f8f45e42ed018cc7:1089887356,4f6085c1463b00100735036a2739261c:1714666985,d42fbc41233b00106fd6fffafa6d392c:1089887356,1b8e3441653b00101b3da30f5c4c47a2:1714666985,b08eb041333b0010aa779434faad9ae6:335827766,2c69833b92438410f04e5a26cc03db35:1714666985,bd390ff78c43841028cc6a6ff0e02501:-821997051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-31 18:36:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>6f8cef28fdcc43d48a7a4a47e3e93610</sys_id>
+        <sys_metadata>3d39cbf71b4384104d53fc86cc4bcbfe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Visiting Date Future</sys_name>
+        <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+        <sys_parent display_value="Pac_Customer_Task">45e39e4b1bf200104d53fc86cc4bcbc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+        <sys_scope_delete display_value="">27616ee741ea40f09ad4d1259db6d900</sys_scope_delete>
+        <sys_update_name>sys_script_3d39cbf71b4384104d53fc86cc4bcbfe</sys_update_name>
+        <sys_update_version display_value="sys_script_3d39cbf71b4384104d53fc86cc4bcbfe">0a7009c12f3b0010d1a756f62799b6c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-31 18:36:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

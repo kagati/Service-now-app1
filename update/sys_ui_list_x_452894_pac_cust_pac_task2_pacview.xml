@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_452894_pac_cust_pac_task2" version="2" view="PacView">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task_name</element>
+            <list_id display_value="x_452894_pac_cust_pac_task2" element="NULL" name="x_452894_pac_cust_pac_task2" parent="NULL" relationship="NULL" sys_domain="global" view="cf9d6f801bcb00104d53fc86cc4bcbff">09b6c7481b2300104d53fc86cc4bcbcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:06:22</sys_created_on>
+            <sys_id>81b6c7481b2300104d53fc86cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:06:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>visit_info.customer_name</element>
+            <list_id display_value="x_452894_pac_cust_pac_task2" element="NULL" name="x_452894_pac_cust_pac_task2" parent="NULL" relationship="NULL" sys_domain="global" view="cf9d6f801bcb00104d53fc86cc4bcbff">09b6c7481b2300104d53fc86cc4bcbcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:06:22</sys_created_on>
+            <sys_id>05b6c7481b2300104d53fc86cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:06:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>visit_info.number_of_visitors</element>
+            <list_id display_value="x_452894_pac_cust_pac_task2" element="NULL" name="x_452894_pac_cust_pac_task2" parent="NULL" relationship="NULL" sys_domain="global" view="cf9d6f801bcb00104d53fc86cc4bcbff">09b6c7481b2300104d53fc86cc4bcbcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:06:22</sys_created_on>
+            <sys_id>85b6c7481b2300104d53fc86cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:06:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_452894_pac_cust_pac_task2" element="NULL" name="x_452894_pac_cust_pac_task2" parent="NULL" relationship="NULL" sys_domain="global" view="cf9d6f801bcb00104d53fc86cc4bcbff">09b6c7481b2300104d53fc86cc4bcbcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:06:22</sys_created_on>
+            <sys_id>09b6c7481b2300104d53fc86cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:06:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_452894_pac_cust_pac_task2</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 01:06:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09b6c7481b2300104d53fc86cc4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_452894_pac_cust_pac_task2</sys_name>
+            <sys_package display_value="Pac Cust Help" source="x_452894_pac_cust">05b152871bf200104d53fc86cc4bcbce</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pac Cust Help">05b152871bf200104d53fc86cc4bcbce</sys_scope>
+            <sys_update_name>sys_ui_list_x_452894_pac_cust_pac_task2_PacView</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 01:06:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="PacView" name="PacView">cf9d6f801bcb00104d53fc86cc4bcbff</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

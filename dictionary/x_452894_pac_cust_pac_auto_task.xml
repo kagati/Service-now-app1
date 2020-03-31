@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pac_Auto_Task" max_length="40" name="x_452894_pac_cust_pac_auto_task" type="collection">
-        <element label="Name  of the Task" max_length="40" name="name_of_the_task" type="string"/>
+        <element label="Add Names" max_length="40" name="add_names" type="boolean"/>
+        <element label="Cust Display Name" max_length="40" name="cust_display_name" type="string"/>
+        <element label="Cust Names" max_length="4000" name="cust_names" type="journal"/>
+        <element label="newlist" max_length="4000" name="newlist" type="simple_name_values"/>
+        <element label="user name" max_length="4000" name="user_name" type="glide_list"/>
     </element>
 </database>
